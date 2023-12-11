@@ -60,6 +60,18 @@ body::-webkit-scrollbar {
     font-family: 'Gotham Pro';
 }
 
+.main-list:hover {
+    transition: 1.5s;
+    font-size: 1.6vw;
+    cursor: pointer;
+}
+
+.main-list:not(:hover) {
+    transition: 1.5s;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
 .main-list-1 {
     font-size: 1.3vw;
     font-family: 'Caviar Dreams';
@@ -899,6 +911,9 @@ body::-webkit-scrollbar {
     font-weight: 500;
 }
 
+
+
+
 /* media */
 /* 1 */
 @media (max-width: 800px) {
@@ -936,6 +951,9 @@ body::-webkit-scrollbar {
         list-style-type: none;   
         padding-left: 1%;
     }
+
+
+
     .block .right {
         height: 40%;
     }
