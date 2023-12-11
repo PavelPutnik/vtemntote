@@ -1,0 +1,982 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Скролл Бар */
+body::-webkit-scrollbar {
+    width: 10px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #D9A95D;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid #D9A95D;  /* padding вокруг плашки */
+  }
+
+
+
+/* Блок 1 */
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    color: white;
+    border-bottom: 0.1vh solid white;
+}
+
+.menu-1 {
+    width: 5%;
+    display: flex;
+}
+
+.menu-2 {
+    width: 95%;
+}
+
+.menu-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-list {
+    color: #EDCC98;
+    padding-right: 6%;
+    font-size: 1.3vw;
+    font-family: 'Gotham Pro';
+}
+
+.main-list-1 {
+    font-size: 1.3vw;
+    font-family: 'Caviar Dreams';
+    list-style-type: none;   
+    padding-left: 15%;
+}
+
+.block {
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+.block .left {
+    width: 70%;
+    height: 100%;
+}
+
+.block .right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block .right img {
+    height: 35vw;
+}
+
+.block .left h1 {
+    font-family: 'Caviar Dreams';
+    font-weight: 100;
+    font-size: 9vw;
+    padding-left: 0.4vw; 
+    padding-top: 20%; 
+}
+
+.block p {
+    font-family: 'Gotham Pro';
+    font-weight: 100;
+    font-size: 2vw;
+    padding-left: 1%;
+}
+
+.foot {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.to-book {
+    width: 30%;
+    height: 8%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border-color: #EDCC98;
+    background-color: black;
+    color: #EDCC98;
+    font-weight: 600;
+    font-size:2vw;
+    font-family: 'Caviar Dreams';
+    border-radius: 1vw;
+   
+}
+
+
+
+/* Блок 2 */
+.main-container .up {
+    width: 100%;
+    height: 20%;
+}
+
+.main-container .up h2 {
+
+    font-family: 'Caviar Dreams';
+    font-weight: 100;
+    color: #EDCC98;
+    font-size: 4vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    letter-spacing: 2px;
+}
+
+.main-container .down {
+    font-family: 'Gotham Pro';
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheme {
+    display: block;
+    width: 100%;
+    height: 69%;
+}
+
+.left-2, .right-2 {
+    font-family: 'Gotham Pro';
+    font-size: 1.7vw;
+}
+
+.main-container .down p {
+    padding-left: 40%;
+    padding-right: 40%;
+    color: #EDCC98;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.main-container .left-2 {
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+
+.left-2 .left {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.left-2 .right {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+.main-container .center {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h3 {
+    color: #D9A95D;
+    font-size: 8vw;
+    font-family: 'Caviar Dreams';
+    font-weight: 100;
+}
+
+.main-container .right-2 {
+    width: 100%;
+    height: 33%;
+    display: flex
+}
+
+.right-2 .left {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.right-2 .right {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+
+
+/* 3 блок */
+.main-container .h2-3 {
+    color: #EDCC98;
+    font-size: 5vw;
+    font-family: 'Caviar Dreams';
+    font-weight: 100;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    letter-spacing: 2px;
+}
+
+.up-2 {
+    width: 100%;
+    height: 15%;
+}
+
+.rules {
+    width: 100%;
+    height: 65%;
+    font-size: 1.5vw;
+    letter-spacing: 0.07vw;
+    font-family: 'Gotham Pro';
+    list-style-image:url('../images/list.png');
+}
+
+.rule-1-2 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.rule-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rule-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rule-3-4 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.rule-3 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rule-4 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.rule-5-6 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.rule-5 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rule-6 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.rule-7-0{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.rule-7 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.rule-1 .left {
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    width: 85%;
+    padding-right: 2vw;   
+}
+.rule-1 .right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-2 .left {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+   
+}
+.rule-2 .right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-3 .left {
+    padding-left: 1vw;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;   
+}
+.rule-3 .right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-4 .left {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+}
+.rule-4 .right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-5 .left {
+    padding-left: 1vw;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+   
+}
+.rule-5 .right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-6 .left {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+   
+}
+.rule-6 .right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-7 .left {
+    padding-left: 1vw; 
+    width: 92.6%;
+    display: flex;
+    align-items: center;
+}
+
+.rule-7 .right {
+    width: 7.4%;
+    /* display: flex;
+    align-items: center; */
+}
+
+.rules img {
+    height: 6vw;
+}
+
+.to-book-2 {
+    width: 30%;
+    height: 8%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border-color: #EDCC98;
+    background-color: black;
+    color: #EDCC98;
+    font-weight: 600;
+    font-size:2.5vw;
+    font-family: 'Caviar Dreams';
+    border-radius: 1vw;
+}
+
+.to-book-2:hover {
+    text-shadow:
+    0 0 42px #D9A95D,
+    0 0 82px #D9A95D;
+    width: 40%;
+    height: 9%;
+    /* box-shadow: 0.6vw 0.2vw 0.5vw #f8c36f; */
+    transition: 1.5s;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    
+}
+
+.to-book-2:not(:hover) {
+    width: 30%;
+    height: 8%;
+    transition: 1.5s;
+    font-size: 2.5vw;
+}
+
+.to-book:hover {
+    transition: 1.5s;
+    width: 40%;
+    height: 10%;
+    letter-spacing: 0.2vw;
+    font-size:2.5vw;
+    border-radius: 1.5vw;
+    text-shadow:
+    0 0 42px #D9A95D,
+    0 0 82px #D9A95D;
+}
+
+.to-book:not(:hover) {
+    transition: 1.5s;
+    font-size:2vw;
+    border-radius: 1vw;
+    width: 30%;
+    height: 8%;
+}
+
+
+/* 4 блок */
+.h2-4 {
+    color: #EDCC98;
+    font-size: 5vw;
+    font-family: 'Caviar Dreams';
+    font-weight: 100;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    letter-spacing: 2px;
+}
+
+.price {
+    width: 75%;
+    height: 15%;
+}
+
+.up-block {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.up-block .left {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    padding-left: 1vw;
+    width: 75%;
+    font-family: 'Gotham Pro';
+
+}
+
+.up-block .right {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    width: 25%;
+    font-family: 'Gotham Pro';
+
+}
+
+.down-block {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.down-block .left {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    padding-left: 1vw;
+    width: 75%;
+    font-family: 'Gotham Pro';
+    height: 100%;
+}
+
+.down-block .right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 2vw;
+    width: 25%;
+    font-family: 'Gotham Pro';
+
+}
+
+.empty {
+    width: 100%;
+    height: 3%;
+}
+
+.price-price {
+    color: #EDCC98;
+    font-weight: 600;
+}
+
+.hr {
+    margin-left: 1vw;
+    border: white solid 1px;
+    width: 75vw;
+}
+
+.time {
+    width: 100%;
+    height: 61%;
+    display: flex;
+}
+
+.time-tablee {
+    padding-top: 1vw;
+    width: 100%;
+    height: 80%;
+} 
+
+.up-3 {
+    width: 100%;
+    height: 20%;
+}
+
+
+.to-book-3 {
+    width: 80%;
+    height: 50%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border-color: #EDCC98;
+    background-color: black;
+    color: #EDCC98;
+    font-weight: 600;
+    font-size:2.5vw;
+    font-family: 'Caviar Dreams';
+    border-radius: 1vw;
+}
+
+.to-book-3:hover {
+    text-shadow:
+    0 0 42px #D9A95D,
+    0 0 82px #D9A95D;
+    width: 90%;
+    height: 70%;
+    /* box-shadow: 0.6vw 0.2vw 0.5vw #f8c36f; */
+    transition: 1s;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+}
+
+.to-book-3:not(:hover) {
+    width: 80%;
+    height: 50%;
+    transition: 1.5s;
+    font-size: 2.5vw;
+}
+
+.time .right {
+    width: 40%;
+    height: 100%;
+}
+
+.time .left {
+    width: 60%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+.image img {
+    height: 20vw;
+}
+
+.knopka {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-5 {
+    color: #EDCC98;
+    font-size: 5vw;
+    font-family: 'Caviar Dreams';
+    font-weight: 100;
+    padding-left: 1%;
+    letter-spacing: 2px;
+}
+
+.top {
+    padding-left: 1vw;
+    padding-right: 3vw;
+}
+
+.time-tablee h2 {
+    font-family: 'Gotham Pro';
+    font-weight: 100;
+    color: #EDCC98;
+    font-size: 2vw;
+}
+
+.time-tablee p {
+    font-family: 'Gotham Pro';
+    font-size: 1.7vw;
+
+}
+
+.time-tablee {
+    line-height: 2.5vw;
+}
+
+/* 5 блок */
+.kontakti {
+    width: 100%;
+    height: 35%;
+}
+
+.kontakti h3 {
+    color: #EDCC98;
+    text-decoration: underline;
+    font-family: 'Gotham Pro';
+    font-weight: 600;
+    font-size: 2.5vw;
+    padding-left: 1vw;
+}
+
+.adress {
+    width: 100%;
+    height: 25%;
+    border-bottom: white solid 1px;
+}
+
+.adress h3 {
+    color: #EDCC98;
+    text-decoration: underline;
+    font-family: 'Gotham Pro';
+    font-weight: 600;
+    font-size: 2.5vw;
+    padding-left: 1vw;
+
+}
+
+.up-up-2 {
+    width: 100%;
+    height: 30%;
+}
+
+.down-down-2 {
+    width: 100%;
+    height: 40%;
+
+}
+
+.down-down-2 p {
+    font-family: 'Gotham Pro';
+    font-size: 2vw;
+    padding-left: 1vw;
+    letter-spacing: 0.1vw;
+    padding-right: 1vw;
+}
+
+.up-up {
+    width: 100%;
+    height: 20%;
+}
+
+.down-down {
+    padding-top: 1vw;
+    width: 100%;
+    height: 80%;
+    list-style-image: url('../images/list.png');
+}
+
+.up-k {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.up-k li {
+    padding-left: 1vw;
+    font-family: 'Gotham Pro';
+    font-size: 2vw;
+}
+
+.up-k p {
+    padding-left: 1vw;
+    font-family: 'Gotham Pro';
+    font-size: 2vw;
+    color: #EDCC98;
+    font-weight: 600;
+}
+
+.down-k li {
+    font-family: 'Gotham Pro';
+    font-size: 2vw;
+    padding-left: 1vw;
+}
+
+.down-k p {
+    padding-left: 1vw;
+    font-family: 'Gotham Pro';
+    font-size: 2vw;
+    color: #EDCC98;
+    font-weight: 600;
+}
+
+.down-k .right a {
+    color: #EDCC98;
+    text-decoration: none;
+}
+
+.down-k {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    height: 21%;
+}
+
+.kon {
+    width: 100%;
+    height: 60%;
+}
+
+.up-f {
+    width: 75%;
+    height: 30%;
+    display: flex;
+}
+
+.down-f {
+    width: 75%;
+    height: 50%;
+    display: flex;
+}
+
+.up-f {
+    padding-top: 1vw;
+    font-family: 'Gotham Pro';
+    font-size: 1.1vw;
+}
+
+.down-f {
+    font-family: 'Gotham Pro';
+    font-size: 1.1vw;
+}
+
+.up-f .left {
+    width: 15%;
+    height: 100%;
+    padding-left: 1vw;
+}
+.up-f .right {
+    width: 25%;
+    height: 100%;
+    color: #EDCC98;
+}
+
+.down-f .left {
+    width: 23%;
+    height: 100%;
+    padding-left: 1vw;
+}
+.down-f .right {
+    width: 25%;
+    height: 100%;
+}
+
+.down-f .right a {
+    color: #EDCC98;
+    text-decoration: none;
+
+}
+
+.org {
+    width: 100%;
+    height: 20%;
+}
+
+.org p {
+    padding-left: 1vw;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.pol {
+    padding-top: 1vw;
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.pol .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    padding-left: 1vw;
+}
+
+.pol .right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: right;
+    padding-right: 1vw;
+}
+
+.pol .right h4 {
+    color: #EDCC98;
+    font-family: 'Gotham Pro';
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.pol .left h4 {
+    color: #EDCC98;
+    font-family: 'Gotham Pro';
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+/* media */
+/* 1 */
+@media (max-width: 800px) {
+    .to-book {
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1.5em;
+        border-radius: 1vw;
+        width: 50%;
+        height: 5%;
+    }
+    .block p {
+        font-family: 'Gotham Pro';
+        font-weight: 100;
+        font-size: 1em;
+        padding-left: 1%;
+    }
+    .block .left h1 {
+        font-family: 'Caviar Dreams';
+        font-weight: 100;
+        font-size: 6em;
+        padding-left: 0.4vw; 
+        padding-top: 10%; 
+    }
+    .baba {
+        height: 60%;
+    }
+    .main-list {
+        padding-right: 3vw;
+        font-size: 1.4em;
+    }
+    .main-list-1 {
+        font-size: 1.4em;
+        font-family: 'Caviar Dreams';
+        list-style-type: none;   
+        padding-left: 1%;
+    }
+    .block .right {
+        height: 40%;
+    }
+}
+/* 2 */
+@media (max-width: 1024px) {
+    .to-book {
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1.5em;
+        border-radius: 1vw;
+        width: 50%;
+        height: 5%;
+    }
+    .block p {
+        font-family: 'Gotham Pro';
+        font-weight: 100;
+        font-size: 1em;
+        padding-left: 1%;
+    }
+    .block .left h1 {
+        font-family: 'Caviar Dreams';
+        font-weight: 100;
+        font-size: 6em;
+        padding-left: 0.4vw; 
+        padding-top: 10%; 
+    }
+    .baba {
+        height: 70%;
+    }
+    .main-list {
+        padding-right: 3%;
+        font-size: 1.4em;
+    }
+    .main-list-1 {
+        font-size: 1.4em;
+        font-family: 'Caviar Dreams';
+        list-style-type: none;   
+        padding-left: 1%;
+    }
+    .block .right {
+        height: 40%;
+    }
+}
