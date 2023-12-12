@@ -9,7 +9,7 @@
 
 @media only screen and (max-width:992px){
      .block .left {
-        padding-top: 6vw;
+        padding-top: 10vw;
         width: 70%;
         height: 100%;
         padding-left: 1vw;
@@ -17,7 +17,7 @@
 
     .main-list-1{
         padding-left: 1vw;
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
 
     .block .left h1 {
@@ -41,20 +41,32 @@
     }
 
     .main-list:not(:hover) {
-        font-size: 1.7vw;
+        font-size: 2vw;
+    }
+
+    .empty-2 {
+        width: 10%;
+        height: 20%;
+    }
+
+    .main-list:hover {
+        font-size: 2.5vw;
     }
 
     .block .right {
-        padding-top: 3vw;
+        justify-content:center;
+        align-items: center;
     }
 
     .rules img {
-        height: 7vw;
+        height: 8vw;
     }
 
     .rules {
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
+
+
 
     .time-tablee {
         padding-top: 3vw;
@@ -121,6 +133,47 @@
         display: flex;
         align-items: center;
     }
+
+    .left-2,.right-2 {
+        font-size: 2.3vw;
+    }
+
+    .main-container .down p {
+        padding-left: 30%;
+        padding-right: 30%;
+        font-size: 2.5vw;
+    }
+
+    .main-container .up h2 {
+        padding-left: 2vw;
+        font-size: 4.6vw;
+    }
+
+    .scheme .left-2 .left {
+        padding-left: 2vw;
+    }
+
+    .scheme .left-2 .right {
+        padding-right: 2vw;
+    }
+
+    .scheme .right-2 .left {
+        padding-left: 2vw;
+    }
+
+    .scheme .right-2 .right {
+        padding-right: 2vw;
+    }
+
+    .scheme .center h3 {
+        font-size: 13vw;
+    }
+
+    .down-down-2 p{
+        font-size: 2.5vw;
+        padding-right: 2vw;
+    }
+
 }
 
 
@@ -128,7 +181,251 @@
 
 /* Small Devices, Desktops */
 @media only screen and (max-width:768px){
+    .baba img {
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rules {
+        font-size: 2.5vw;
+    }
+
+    .rules img {
+        height: 10vw;
+    }
+
+    .empty-2 {
+        width: 6%;
+    }
+
+    .menu-1 {
+        width: 20%;
+    }
+
+    .menu-2 {
+        width: 80%;
+    }
+
+    .main-list:hover {
+        transition: 1.5s;
+        font-size: 3vw;
+        cursor: pointer;
+    }
+    
+    .main-list:not(:hover) {
+        transition: 1.5s;
+        font-size: 2.5vw;
+        cursor: pointer;
+    }
+
+    .main-list-1 {
+        font-size: 2.5vw;
+    }
+
+    .block .left h1 {
+        padding-top: 15%;
+        font-size: 12vw;
+    }
+
+    .block .left p {
+        font-size: 2.8vw;
+    }
+
+    .block .right {
+        width: 30%;
+        height: 80%;
+    }
+
+    .to-book:not(:hover) {
+        font-size: 3.3vw;
+    }
+
+    .to-book {
+        font-size: 3.3vw;
+    }
+
+    .to-book:hover {
+        font-size: 4vw;
+    }
+
+    .up-k  .left li{
+        font-size: 3vw;
+    }
+    .up-k  .right p{
+        font-size: 3vw;
+    }
+    .down-k  .left li{
+        font-size: 3vw;
+    }
+    .down-k  .right p{
+        font-size: 3vw;
+    }
+
+    .up-2 .h2-4 {
+        font-size: 6vw;
+    }
+
+    .up-up h3 {
+        font-size: 4vw;
+    }
+
+    .up-up-2 h3 {
+        font-size: 4vw;
+    }
+
+    .org p {
+        font-size: 1.8vw;
+    }
+
+    .pol .left h4 {
+        font-size: 2.5vw;
+    }
+
+    .pol .right h4 {
+        font-size: 2.5vw;
+    }
+
+    .time{
+        display: block;
+    }
+
+    .time .left {
+        width: 100%;
+        height: 60%;
+    }
+
+    .time .right {
+        width: 100%;
+        height:40%;
+    }
+
+    .time-tablee {
+        width: 100%;
+        height: 70%;
+    }
+
+    .time .right {
+        display: flex;
+    }
+    .time .right .image img {
+        height: 25vw;
+        float: right;
+        position: absolute;
+        right: 0;
+        bottom: 3vw;
+    }
+
+    .time .right .image {
+        width: 50%;
+        height: 100%;
+    }
+    .time .right .knopka {
+        width: 50%;
+        height: 100%;
+        display: block;
         
+        bottom: 0;
+    }
+ 
+    .to-book-3 {
+        width: 80%;
+        height: 30%;
+        font-size:3vw;
+    }
+    
+    .to-book-3:hover {
+        text-shadow:
+        0 0 42px #D9A95D,
+        0 0 82px #D9A95D;
+        width: 90%;
+        height: 40%;
+        /* box-shadow: 0.6vw 0.2vw 0.5vw #f8c36f; */
+        transition: 1s;
+        font-size: 4vw;
+        letter-spacing: 0.3vw;
+    }
+    
+    .to-book-3:not(:hover) {
+        width: 80%;
+        height: 30%;
+        transition: 1.5s;
+        font-size: 3vw;
+    }
+
+    .time-tablee  p{
+        padding-right: 1vw;
+        line-height: 4vw;
+    }
+    
+    .time-tablee h2 {
+        font-size: 3vw;
+    }
+
+    .time-tablee p{
+        font-size: 3vw;
+    }
+
+    .price {
+        width: 100%;
+        height: 15%;
+    }
+
+    .up-block .left {
+        width: 70%;
+    }
+
+    .up-block .right {
+        width: 30%;
+    }
+
+    .down-block .left {
+        width: 70%;
+    }
+
+    .down-block .right {
+        width: 30%;
+    }
+
+    .up-block .left p{
+        font-size: 3vw;
+    }
+
+    .up-block .right p{
+        font-size: 3vw;
+    }
+
+    .down-block .left p{
+        font-size: 3vw;
+    }
+
+    .down-block .right p{
+        font-size: 3vw;
+    }
+
+    .hr {
+        margin-left: 1vw;
+        border: white solid 1px;
+        width: 90vw;
+    }
+
+    .up-2 {
+        height: 7%;
+    }
+
+    .up-2 .h2-4 {
+        font-size: 6vw;
+    }
+
+    .up-3 .h2-5 {
+        font-size: 6vw;
+    }
+
+
+    .rule-7 .left {
+        width: 88%;
+    }
+
 }
 
 /* Extra small, Phones */
