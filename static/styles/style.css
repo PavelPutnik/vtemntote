@@ -136,6 +136,10 @@ body::-webkit-scrollbar {
 
 }
 
+.foot img {
+    height: 4vw;
+}
+
 .to-book {
     width: 30%;
     height: 8%;
@@ -924,87 +928,3 @@ body::-webkit-scrollbar {
 
 
 
-/* media */
-/* 1 */
-@media (max-width: 800px) {
-    .to-book {
-        margin-left: 1%;
-        margin-top: 1%;
-        font-size: 1.5em;
-        border-radius: 1vw;
-        width: 50%;
-        height: 5%;
-    }
-    .block p {
-        font-family: 'Gotham Pro';
-        font-weight: 100;
-        font-size: 1em;
-        padding-left: 1%;
-    }
-    .block .left h1 {
-        font-family: 'Caviar Dreams';
-        font-weight: 100;
-        font-size: 6em;
-        padding-left: 0.4vw; 
-        padding-top: 10%; 
-    }
-    .baba {
-        height: 60%;
-    }
-    .main-list {
-        padding-right: 3vw;
-        font-size: 1.4em;
-    }
-    .main-list-1 {
-        font-size: 1.4em;
-        font-family: 'Caviar Dreams';
-        list-style-type: none;   
-        padding-left: 1%;
-    }
-
-
-
-    .block .right {
-        height: 40%;
-    }
-}
-/* 2 */
-@media (max-width: 1024px) {
-    .to-book {
-        margin-left: 1%;
-        margin-top: 1%;
-        font-size: 1.5em;
-        border-radius: 1vw;
-        width: 50%;
-        height: 5%;
-    }
-    .block p {
-        font-family: 'Gotham Pro';
-        font-weight: 100;
-        font-size: 1em;
-        padding-left: 1%;
-    }
-    .block .left h1 {
-        font-family: 'Caviar Dreams';
-        font-weight: 100;
-        font-size: 6em;
-        padding-left: 0.4vw; 
-        padding-top: 10%; 
-    }
-    .baba {
-        height: 70%;
-    }
-    .main-list {
-        padding-right: 3%;
-        font-size: 1.4em;
-    }
-    .main-list-1 {
-        font-size: 1.4em;
-        font-family: 'Caviar Dreams';
-        list-style-type: none;   
-        padding-left: 1%;
-    }
-    .block .right {
-        height: 40%;
-    }
-}

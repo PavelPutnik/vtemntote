@@ -1,0 +1,144 @@
+/* =======================DESKTOP=============================== */
+@import url("style.css");
+/* Large Devices, Wide Screens */
+/* @media only screen and (max-width:1200px){
+        
+} */
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width:992px){
+     .block .left {
+        padding-top: 6vw;
+        width: 70%;
+        height: 100%;
+        padding-left: 1vw;
+    }
+
+    .main-list-1{
+        padding-left: 1vw;
+        font-size: 1.7vw;
+    }
+
+    .block .left h1 {
+        font-size: 10vw;
+    }
+
+    .block p {
+        font-size: 2.2vw;
+    }
+
+    .to-book:not(:hover) {
+        width: 50%;
+        height: 10%;
+        font-size: 2.5vw;
+    }
+
+    .to-book:hover {
+        width: 60%;
+        height: 12%;
+        font-size: 2.6vw;
+    }
+
+    .main-list:not(:hover) {
+        font-size: 1.7vw;
+    }
+
+    .block .right {
+        padding-top: 3vw;
+    }
+
+    .rules img {
+        height: 7vw;
+    }
+
+    .rules {
+        font-size: 1.7vw;
+    }
+
+    .time-tablee {
+        padding-top: 3vw;
+    }
+
+    .time-tablee p {
+        font-size: 2vw;
+    }
+
+    .time-tablee h2{
+        font-size: 2.3vw;
+    }
+    .time-tablee {
+        line-height: 3vw;
+    }
+
+    .time .left {
+        width: 70%;
+    }
+
+    .time .right {
+        width: 30%;
+    }
+
+    .kon .up-f {
+        font-size: 2vw;
+    }
+
+    .kon .up-f .left {
+        width: 30%;
+    }
+    .kon .up-f .right {
+        width: 70%;
+    }
+
+    .kon .down-f {
+        font-size: 2vw;
+    }
+
+    .kon .down-f .left {
+        width: 40%;
+    }
+    .kon .down-f .right {
+        width: 60%;
+    }
+
+    .org p {
+        font-size: 1.5vw;
+    }
+
+    .pol {
+        height: 40%;
+    }
+
+    .pol .left h4 {
+        font-size: 1.7vw;
+    }
+
+    .pol .right h4 {
+        font-size: 1.7vw;
+    }
+
+    .rule-7 .right{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+/* Small Devices, Desktops */
+@media only screen and (max-width:768px){
+        
+}
+
+/* Extra small, Phones */
+@media only screen and (max-width:480px){
+        
+}
+
+
+/* Custom */
+@media only screen and (max-width:320px){
+        
+}
+
