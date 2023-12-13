@@ -430,7 +430,35 @@
 
 /* Extra small, Phones */
 @media only screen and (max-width:480px){
+    .main-container-2 {
+        width: 100%;
+        height: 55vh;
+        background-color: black;
+        color:white;
         
+    }
+
+    .block .right img {
+        height: 40vw;
+    }
+
+    .block {
+        height: 75%;
+    }
+
+    .block .left {
+        height: 75%;
+        width: 60;
+    }
+
+    .block .right {
+        height: 100%;
+        width: 40%;
+    }
+
+    .block .left p {
+        font-size: 3.3vw;
+    }
 }
 
 
