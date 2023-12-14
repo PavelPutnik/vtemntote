@@ -29,16 +29,17 @@
         font-size: 2.2vw;
     }
 
-    .to-book:not(:hover) {
+    .block .but .to-book:not(:hover) {
         width: 50%;
-        height: 10%;
-        font-size: 2.5vw;
+        height: 5vw;
+        font-size: 3vw;
     }
 
-    .to-book:hover {
+    .block .but .to-book:hover {
         width: 60%;
-        height: 12%;
-        font-size: 2.6vw;
+        height: 5.3vw;
+        font-size: 4vw;
+        letter-spacing: 0.2vw;
     }
 
     .menu-2 .menu-ul .main-list:not(:hover) {
@@ -240,16 +241,21 @@
         height: 80%;
     }
 
-    .to-book:not(:hover) {
+    .block .but .to-book:not(:hover) {
+        font-size: 3.3vw;
+        height: 7vw;
+        width: 50vw;
+    }
+
+    .block .but .to-book {
         font-size: 3.3vw;
     }
 
-    .to-book {
-        font-size: 3.3vw;
-    }
-
-    .to-book:hover {
+    .block .but .to-book:hover {
         font-size: 4vw;
+        height: 8vw;
+        width: 55vw;
+        letter-spacing: 0.5vw;
     }
 
     .up-k  .left li{
@@ -555,25 +561,28 @@
         text-align: center;
     }
     
-    .but .to-book {
-    width: 75%;
-    height: 50%;
-    margin-left: 1%;
-    margin-top: 1.5%;
-    border-color: #EDCC98;
-    background-color: black;
-    color: #EDCC98;
-    font-weight: 600;
-    font-size:7vw;
-    font-family: 'Caviar Dreams';
-    border-radius: 1vw;
+
+    .block .but .to-book:hover {
+        width: 80vw;
+        height: 22vw;
+        font-size: 8vw;
+        letter-spacing: 0.5vw;
     }
 
-    .but .to-book:hover {
-        width: 85%;
-        height: 52%;
-        font-size: 8vw;
-    }
+    .block .but .to-book:not(:hover) {
+        width: 70vw;
+        height: 20vw;
+        margin-left: 1%;
+        margin-top: 1.5%;
+        border-color: #EDCC98;
+        background-color: black;
+        color: #EDCC98;
+        font-weight: 600;
+        font-size:7vw;
+        font-family: 'Caviar Dreams';
+        border-radius: 1vw;
+        }
+
 
     .but {
         justify-content: center;

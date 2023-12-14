@@ -152,16 +152,16 @@ body::-webkit-scrollbar {
     height: 4vw;
 }
 
-.to-book {
-    width: 30%;
-    height: 8%;
+.block .but .to-book {
+    width: 30vw;
+    height: 5vw;
     margin-left: 1%;
     margin-top: 1.5%;
     border-color: #EDCC98;
     background-color: black;
     color: #EDCC98;
     font-weight: 600;
-    font-size:2vw;
+    font-size:2.5vw;
     font-family: 'Caviar Dreams';
     border-radius: 1vw;
    
@@ -506,24 +506,24 @@ body::-webkit-scrollbar {
     font-size: 2.5vw;
 }
 
-.to-book:hover {
+.block .but .to-book:hover {
     transition: 1.5s;
-    width: 40%;
-    height: 10%;
-    letter-spacing: 0.2vw;
-    font-size:2.5vw;
+    width: 35vw;
+    height: 7vw;
+    letter-spacing: 0.4vw;
+    font-size:3vw;
     border-radius: 1.5vw;
     text-shadow:
     0 0 42px #D9A95D,
     0 0 82px #D9A95D;
 }
 
-.to-book:not(:hover) {
+.block .but .to-book:not(:hover) {
     transition: 1.5s;
-    font-size:2vw;
+    font-size:2.5vw;
     border-radius: 1vw;
-    width: 30%;
-    height: 8%;
+    width:30vw;
+    height: 5vw;
 }
 
 
@@ -907,7 +907,7 @@ body::-webkit-scrollbar {
 }
 
 .pol {
-    padding-top: 1vw;
+    /* padding-top: 1vw; */
     width: 100%;
     height: 20%;
     display: flex;
