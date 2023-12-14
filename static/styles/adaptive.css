@@ -185,6 +185,10 @@
 
 /* Small Devices, Desktops */
 @media only screen and (max-width:768px){
+    .btn-up {
+        width: 40px;
+        height: 35px;
+    }
     .baba img {
         height: 40vw;
         align-items: center;
@@ -439,6 +443,11 @@
 
 /* Extra small, Phones */
 @media only screen and (max-width:480px){
+    .btn-up {
+        width: 35px;
+        height: 30px;
+    }
+   
     /* Burger */
     .menu {
         height: 15%;
