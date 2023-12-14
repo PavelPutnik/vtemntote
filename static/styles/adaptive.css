@@ -177,8 +177,6 @@
 }
 
 
-
-
 /* Small Devices, Desktops */
 @media only screen and (max-width:768px){
     .baba img {
@@ -459,7 +457,252 @@
     .block .left p {
         font-size: 3.3vw;
     }
+    
+    .main-container .up {
+        height: 10%;
+
+    }
+
+    .main-container .up h2{
+        font-size: 6.5vw;
+    }
+
+    .scheme p {
+        font-size: 3.5vw;
+    }
+
+    .main-container .down p {
+        font-size: 4vw;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .scheme .down .left-2 .left p{
+        text-align: center;
+    }
+
+    .main-container .center h3 {
+        font-size: 16vw;
+    }
+
+    .main-container .up-2 h2 {
+        font-size: 9vw;
+        padding-left: 2vw;
+    }
+
+    .rules img {
+        height: 13vw;
+    }
+
+    .rules li {
+        font-size: 3vw;
+    }
+
+    .rule-7 .left li {
+        font-size: 4vw;
+    }
+    
+    .main-container .to-book-2 {
+        width: 75%;
+        font-size: 7vw;
+    }
+
+    .main-container .to-book-2:hover {
+        width: 85%;
+        height: 10%;
+        font-size: 9vw;
+    }
+
+    .main-container .to-book-2:not(:hover) {
+        width: 75%;
+        font-size: 7vw;
+    }
+
+    .main-container .time .left .up-3 .h2-5 {
+        font-size: 8vw;
+    }
+
+    .main-container .time .right .to-book-3 {
+        font-size: 6.5vw;
+        width: 100%;
+    }
+
+    .main-container .time .right .knopka {
+        width: 85%;
+        height: 100%;
+    }
+
+    .main-container .time .right .image img{
+        height: 35vw;
+    }
+
+    .main-container .up-2 {
+        height: 13%;
+    }
+
+    .kontakti .up-up h3 {
+        font-size: 5vw;
+    }
+
+    .adress .down-down-2 p {
+        padding-left: 1vw;
+        font-size: 4vw;
+    }
+
+    .up-up-2 h3 {
+        font-size:  8vw;
+    }
+
+    .up-k .left li {
+        font-size: 5vw;
+    }
+
+    .up-k .right p {
+        font-size: 5vw;
+    }
+
+    .down-k {
+        display: block;
+    }
+
+    .down-k .left li {
+        font-size: 5vw;
+    }
+
+    .down-k .right p {
+        padding-left: 24vw;
+        padding-top: 2vw;
+        font-size: 5vw;
+    }
+
+    .down-down {
+        height: 100%;
+    }
+
+    .kontakti {
+        height: 30%;
+    }
+
+    .footer {
+        height: 28%;
+    }
+
+    .footer .kon {
+        height: 40%;
+    }
+
+    .footer .kon .up-f .left {
+        width: 50%;
+    }
+
+    .footer .kon .up-f .left p{
+        font-size: 4.5vw;
+    }
+
+    .footer .kon .up-f {
+        width: 100%;
+    }
+
+    .footer .kon .up-f .right p{
+        font-size: 4.5vw;
+    }
+
+    .footer .kon .up-f .right {
+        width: 50%;
+    }
+
+    .footer .pol {
+        height: 20%;
+    }
+
+    .footer .down-f {
+        width: 100%;
+        padding-top: 1vw;
+    }
+
+    .footer .kon .down-f .right p{
+        font-size: 4.5vw;
+        padding-top: 1vw;
+        padding-left: 22vw;
+    }
+
+    .footer .kon .down-f .right {
+        width: 100%;
+    }
+
+    .footer .kon .down-f {
+        display: block;
+    }
+
+    .footer .kon .down-f .left p{
+        font-size: 4.5vw;
+    }
+
+    .footer .kon .down-f .left {
+        width: 90%;
+        height: 40%;
+    }
+
+    .org {
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .org p {
+        font-size: 3vw;
+    }
+
+    .pol .left h4 {
+        font-size: 4vw;
+    }
+
+    .pol .right h4 {
+        font-size: 4vw;
+    }
+
+    .price .up-block .left p {
+        padding-left: 1vw;
+        font-size: 4.7vw;
+    }
+
+    .price .up-block .right p {
+        font-size: 4.7vw;
+    }
+
+    .price .up-block .left {
+        width: 65%;
+    }
+
+    
+    .price .up-block .right {
+        width: 35%;
+    }
+
+    .price .down-block .left p {
+        padding-left: 1vw;
+        font-size: 4.7vw;
+    }
+
+    .price .down-block .right p {
+        font-size: 4.7vw;
+    }
+
+    .price .down-block .left {
+        width: 65%;
+    }
+
+    .price .down-block .right {
+        width: 35%;
+    }
+
+    #up-2-2 {
+        height: 7%;
+    }
+
 }
+
 
 
 /* Custom */
