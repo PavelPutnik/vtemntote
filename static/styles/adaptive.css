@@ -448,14 +448,14 @@
         font-size: 5vw;
     }
 
-    .menu-2 [for=burger] {
+    .menu [for=burger] {
         display: block;
         position: fixed;
         width: 30px;
         text-align: center;
         right: 20px;
         font-size: 6vw;
-        top: 5%;
+        top: 5.5%;
     }
 
     [for=burger]::before {
@@ -684,7 +684,8 @@
 
     .adress .down-down-2 p {
         padding-left: 1vw;
-        font-size: 4vw;
+        font-size: 3.8vw;
+        line-height: 5vw;
     }
 
     .up-up-2 h3 {
@@ -789,7 +790,8 @@
     }
 
     .org p {
-        font-size: 3vw;
+        font-size: 3.5vw;
+        text-align: center;
     }
 
     .pol {
