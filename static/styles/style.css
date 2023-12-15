@@ -82,15 +82,15 @@ body::-webkit-scrollbar {
     font-family: 'Gotham Pro';
 }
 
-.main-list:hover {
+.menu-2 .menu-ul .main-list:hover {
     transition: 1.5s;
-    font-size: 1.6vw;
+    font-size: 2.5vw;
     cursor: pointer;
 }
 
-.main-list:not(:hover) {
+.menu-2 .menu-ul .main-list:not(:hover) {
     transition: 1.5s;
-    font-size: 1.3vw;
+    font-size: 2vw;
     cursor: pointer;
 }
 
